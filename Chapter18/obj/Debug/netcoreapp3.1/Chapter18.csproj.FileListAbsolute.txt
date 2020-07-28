@@ -1,0 +1,13 @@
+D:\studydata\Essential\Chapter18\bin\Debug\netcoreapp3.1\Chapter18.exe
+D:\studydata\Essential\Chapter18\bin\Debug\netcoreapp3.1\Chapter18.deps.json
+D:\studydata\Essential\Chapter18\bin\Debug\netcoreapp3.1\Chapter18.runtimeconfig.json
+D:\studydata\Essential\Chapter18\bin\Debug\netcoreapp3.1\Chapter18.runtimeconfig.dev.json
+D:\studydata\Essential\Chapter18\bin\Debug\netcoreapp3.1\Chapter18.dll
+D:\studydata\Essential\Chapter18\bin\Debug\netcoreapp3.1\Chapter18.pdb
+D:\studydata\Essential\Chapter18\obj\Debug\netcoreapp3.1\Chapter18.csprojAssemblyReference.cache
+D:\studydata\Essential\Chapter18\obj\Debug\netcoreapp3.1\Chapter18.AssemblyInfoInputs.cache
+D:\studydata\Essential\Chapter18\obj\Debug\netcoreapp3.1\Chapter18.AssemblyInfo.cs
+D:\studydata\Essential\Chapter18\obj\Debug\netcoreapp3.1\Chapter18.csproj.CoreCompileInputs.cache
+D:\studydata\Essential\Chapter18\obj\Debug\netcoreapp3.1\Chapter18.dll
+D:\studydata\Essential\Chapter18\obj\Debug\netcoreapp3.1\Chapter18.pdb
+D:\studydata\Essential\Chapter18\obj\Debug\netcoreapp3.1\Chapter18.genruntimeconfig.cache
