@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
+using System.Dynamic;
+using System.Linq.Expressions;
 
 namespace Chapter18
 {
@@ -13,6 +15,8 @@ namespace Chapter18
             //GetProperty();
 
             Generic();
+
+            DynamicBind();
         }
 
         public static void GetProperty()
@@ -24,7 +28,6 @@ namespace Chapter18
             {
                 Console.WriteLine(property.Name);
                 //property.Attributes
-                property.get
             }
 
             Console.WriteLine("------------特性-----------------");
@@ -56,6 +59,29 @@ namespace Chapter18
             {
                 Console.WriteLine(type.FullName);
             }
+        }
+
+        public static void VarParam()
+        {
+            var v = "dsf";
+            //v = 123; //var 不能隐式变换类型
+            dynamic d = "sdfds";
+            d = 1323; //dynamic 可以隐式变换类型
+
+            Console.WriteLine(v);
+        }
+
+        
+        //动态绑定
+        public static void DynamicBind()
+        {
+            Console.WriteLine("\n------------动态绑定-----------------");
+            dynamic person = DynamicXml.Parse(@"<Person>
+            <FirstName>lee</FirstName>
+            <LastName>xifoeng</LastName>
+            </Person>");
+
+            Console.WriteLine(person.FirstName);
         }
     }
 }

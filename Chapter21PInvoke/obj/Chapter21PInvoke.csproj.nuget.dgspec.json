@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\study\\Essential\\Chapter21PInvoke\\Chapter21PInvoke.csproj": {}
+    "D:\\studydata\\Essential\\Chapter21PInvoke\\Chapter21PInvoke.csproj": {}
   },
   "projects": {
-    "D:\\study\\Essential\\Chapter21PInvoke\\Chapter21PInvoke.csproj": {
+    "D:\\studydata\\Essential\\Chapter21PInvoke\\Chapter21PInvoke.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\study\\Essential\\Chapter21PInvoke\\Chapter21PInvoke.csproj",
+        "projectUniqueName": "D:\\studydata\\Essential\\Chapter21PInvoke\\Chapter21PInvoke.csproj",
         "projectName": "Chapter21PInvoke",
-        "projectPath": "D:\\study\\Essential\\Chapter21PInvoke\\Chapter21PInvoke.csproj",
-        "packagesPath": "C:\\Users\\xiaofeng\\.nuget\\packages\\",
-        "outputPath": "D:\\study\\Essential\\Chapter21PInvoke\\obj\\",
+        "projectPath": "D:\\studydata\\Essential\\Chapter21PInvoke\\Chapter21PInvoke.csproj",
+        "packagesPath": "C:\\Users\\neo\\.nuget\\packages\\",
+        "outputPath": "D:\\studydata\\Essential\\Chapter21PInvoke\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\xiaofeng\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\neo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
