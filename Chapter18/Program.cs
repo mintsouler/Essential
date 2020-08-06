@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using System.Dynamic;
 using System.Linq.Expressions;
+using System.Linq;
 
 namespace Chapter18
 {
@@ -17,6 +18,8 @@ namespace Chapter18
             Generic();
 
             DynamicBind();
+
+            ArrayTest();
         }
 
         public static void GetProperty()
@@ -82,6 +85,23 @@ namespace Chapter18
             </Person>");
 
             Console.WriteLine(person.FirstName);
+        }
+
+        public static void ArrayTest()
+        {
+            Console.WriteLine("---ArrayTest()---------------------");
+            string str = "1,2,5,3,9,4,6,6,8,7";
+            int[] ids = Array.ConvertAll(str.Split(','), int.Parse);
+            Array.Sort(ids, (a, b) => { if (a > b) return 1; else if (a == b) return 0; else return -1; });
+
+            int[] ids1 = Array.FindAll(ids, (a) => { return a <= 5; });
+            int[] ids2 = Array.FindAll(ids, (a) => { return a > 5; });
+
+            Array.ForEach(ids1, (a) => { Console.WriteLine(a); });
+            Console.WriteLine("---------------------------");
+            Array.ForEach(ids2, (a) => { Console.WriteLine(a); });
+
+            Console.WriteLine(string.Join(',',ids1));
         }
     }
 }

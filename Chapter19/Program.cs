@@ -35,6 +35,9 @@ namespace Chapter19
             }
             Console.WriteLine("\n");
             ContinueWith();
+
+
+
         }
 
         public static async Task WritWebRequestSizeAsync(string url)
@@ -68,6 +71,18 @@ namespace Chapter19
             {
                 Console.WriteLine($"{Thread.CurrentThread.ManagedThreadId}：{text}");
             }
+        }
+
+        public static void UnThreadSafeCode()
+        {
+            double count = 0.134;
+
+            Task 
+        }
+
+        public static void ThreadSafeCode()
+        {
+
         }
     }
 }
